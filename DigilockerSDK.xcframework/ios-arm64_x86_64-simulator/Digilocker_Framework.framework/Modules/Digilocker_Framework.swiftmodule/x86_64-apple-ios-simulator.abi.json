@@ -411,49 +411,672 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "Digilocker_Framework"
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Digilocker_Framework"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "Digilocker_Framework"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
+        "kind": "TypeDecl",
+        "name": "InitSDKView",
+        "printedName": "InitSDKView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "environment",
+            "printedName": "environment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20Digilocker_Framework11InitSDKViewV11environmentSSvp",
+            "mangledName": "$s20Digilocker_Framework11InitSDKViewV11environmentSSvp",
+            "moduleName": "Digilocker_Framework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20Digilocker_Framework11InitSDKViewV11environmentSSvg",
+                "mangledName": "$s20Digilocker_Framework11InitSDKViewV11environmentSSvg",
+                "moduleName": "Digilocker_Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20Digilocker_Framework11InitSDKViewV5tokenSSvp",
+            "mangledName": "$s20Digilocker_Framework11InitSDKViewV5tokenSSvp",
+            "moduleName": "Digilocker_Framework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20Digilocker_Framework11InitSDKViewV5tokenSSvg",
+                "mangledName": "$s20Digilocker_Framework11InitSDKViewV5tokenSSvg",
+                "moduleName": "Digilocker_Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onCompletion",
+            "printedName": "onCompletion",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20Digilocker_Framework11InitSDKViewV12onCompletionyySScvp",
+            "mangledName": "$s20Digilocker_Framework11InitSDKViewV12onCompletionyySScvp",
+            "moduleName": "Digilocker_Framework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20Digilocker_Framework11InitSDKViewV12onCompletionyySScvg",
+                "mangledName": "$s20Digilocker_Framework11InitSDKViewV12onCompletionyySScvg",
+                "moduleName": "Digilocker_Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onFailure",
+            "printedName": "onFailure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20Digilocker_Framework11InitSDKViewV9onFailureyySScvp",
+            "mangledName": "$s20Digilocker_Framework11InitSDKViewV9onFailureyySScvp",
+            "moduleName": "Digilocker_Framework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20Digilocker_Framework11InitSDKViewV9onFailureyySScvg",
+                "mangledName": "$s20Digilocker_Framework11InitSDKViewV9onFailureyySScvg",
+                "moduleName": "Digilocker_Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(environment:token:onCompletion:onFailure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InitSDKView",
+                "printedName": "Digilocker_Framework.InitSDKView",
+                "usr": "s:20Digilocker_Framework11InitSDKViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20Digilocker_Framework11InitSDKViewV11environment5token12onCompletion0G7FailureACSS_SSySScySSctcfc",
+            "mangledName": "$s20Digilocker_Framework11InitSDKViewV11environment5token12onCompletion0G7FailureACSS_SSySScySSctcfc",
+            "moduleName": "Digilocker_Framework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20Digilocker_Framework11InitSDKViewV4bodyQrvp",
+            "mangledName": "$s20Digilocker_Framework11InitSDKViewV4bodyQrvp",
+            "moduleName": "Digilocker_Framework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20Digilocker_Framework11InitSDKViewV4bodyQrvg",
+                "mangledName": "$s20Digilocker_Framework11InitSDKViewV4bodyQrvg",
+                "moduleName": "Digilocker_Framework",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20Digilocker_Framework11InitSDKViewV",
+        "mangledName": "$s20Digilocker_Framework11InitSDKViewV",
         "moduleName": "Digilocker_Framework",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Env",
+        "printedName": "Env",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "PROD",
+            "printedName": "PROD",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Digilocker_Framework.Env.Type) -> Digilocker_Framework.Env",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Env",
+                    "printedName": "Digilocker_Framework.Env",
+                    "usr": "s:20Digilocker_Framework3EnvO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Digilocker_Framework.Env.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Env",
+                        "printedName": "Digilocker_Framework.Env",
+                        "usr": "s:20Digilocker_Framework3EnvO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20Digilocker_Framework3EnvO4PRODyA2CmF",
+            "mangledName": "$s20Digilocker_Framework3EnvO4PRODyA2CmF",
+            "moduleName": "Digilocker_Framework"
+          },
+          {
+            "kind": "Var",
+            "name": "SANDBOX",
+            "printedName": "SANDBOX",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Digilocker_Framework.Env.Type) -> Digilocker_Framework.Env",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Env",
+                    "printedName": "Digilocker_Framework.Env",
+                    "usr": "s:20Digilocker_Framework3EnvO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Digilocker_Framework.Env.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Env",
+                        "printedName": "Digilocker_Framework.Env",
+                        "usr": "s:20Digilocker_Framework3EnvO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20Digilocker_Framework3EnvO7SANDBOXyA2CmF",
+            "mangledName": "$s20Digilocker_Framework3EnvO7SANDBOXyA2CmF",
+            "moduleName": "Digilocker_Framework"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20Digilocker_Framework3EnvO8rawValueSSvp",
+            "mangledName": "$s20Digilocker_Framework3EnvO8rawValueSSvp",
+            "moduleName": "Digilocker_Framework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20Digilocker_Framework3EnvO8rawValueSSvg",
+                "mangledName": "$s20Digilocker_Framework3EnvO8rawValueSSvg",
+                "moduleName": "Digilocker_Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Digilocker_Framework.Env?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Env",
+                    "printedName": "Digilocker_Framework.Env",
+                    "usr": "s:20Digilocker_Framework3EnvO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20Digilocker_Framework3EnvO8rawValueACSgSS_tcfc",
+            "mangledName": "$s20Digilocker_Framework3EnvO8rawValueACSgSS_tcfc",
+            "moduleName": "Digilocker_Framework",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:20Digilocker_Framework3EnvO",
+        "mangledName": "$s20Digilocker_Framework3EnvO",
+        "moduleName": "Digilocker_Framework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
         ]
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "Digilocker_Framework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "Digilocker_Framework"
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Digilocker_Framework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Digilocker_Framework"
       },
@@ -463,6 +1086,652 @@
         "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "Digilocker_Framework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RepositoryProtocol",
+        "printedName": "RepositoryProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "postFootprint",
+            "printedName": "postFootprint(url:request:token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<Digilocker_Framework.ModelFootprintResponse, Digilocker_Framework.APIError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModelFootprintResponse",
+                    "printedName": "Digilocker_Framework.ModelFootprintResponse",
+                    "usr": "s:20Digilocker_Framework22ModelFootprintResponseV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIError",
+                    "printedName": "Digilocker_Framework.APIError",
+                    "usr": "s:20Digilocker_Framework8APIErrorO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ModelFootprintRequest",
+                "printedName": "Digilocker_Framework.ModelFootprintRequest",
+                "usr": "s:20Digilocker_Framework21ModelFootprintRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20Digilocker_Framework18RepositoryProtocolP13postFootprint3url7request5token7Combine12AnyPublisherVyAA05ModelF8ResponseVAA8APIErrorOGSS_AA0mF7RequestVSStF",
+            "mangledName": "$s20Digilocker_Framework18RepositoryProtocolP13postFootprint3url7request5token7Combine12AnyPublisherVyAA05ModelF8ResponseVAA8APIErrorOGSS_AA0mF7RequestVSStF",
+            "moduleName": "Digilocker_Framework",
+            "genericSig": "<τ_0_0 where τ_0_0 : Digilocker_Framework.RepositoryProtocol>",
+            "sugared_genericSig": "<Self where Self : Digilocker_Framework.RepositoryProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getForOptions",
+            "printedName": "getForOptions(url:token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<Digilocker_Framework.ModelOptions, Digilocker_Framework.APIError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModelOptions",
+                    "printedName": "Digilocker_Framework.ModelOptions",
+                    "usr": "s:20Digilocker_Framework12ModelOptionsV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIError",
+                    "printedName": "Digilocker_Framework.APIError",
+                    "usr": "s:20Digilocker_Framework8APIErrorO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20Digilocker_Framework18RepositoryProtocolP13getForOptions3url5token7Combine12AnyPublisherVyAA05ModelG0VAA8APIErrorOGSS_SStF",
+            "mangledName": "$s20Digilocker_Framework18RepositoryProtocolP13getForOptions3url5token7Combine12AnyPublisherVyAA05ModelG0VAA8APIErrorOGSS_SStF",
+            "moduleName": "Digilocker_Framework",
+            "genericSig": "<τ_0_0 where τ_0_0 : Digilocker_Framework.RepositoryProtocol>",
+            "sugared_genericSig": "<Self where Self : Digilocker_Framework.RepositoryProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getForDigilockerRedirect",
+            "printedName": "getForDigilockerRedirect(url:token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<Digilocker_Framework.ModelDigilockerRedirect, Digilocker_Framework.APIError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModelDigilockerRedirect",
+                    "printedName": "Digilocker_Framework.ModelDigilockerRedirect",
+                    "usr": "s:20Digilocker_Framework05ModelA8RedirectV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIError",
+                    "printedName": "Digilocker_Framework.APIError",
+                    "usr": "s:20Digilocker_Framework8APIErrorO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20Digilocker_Framework18RepositoryProtocolP06getForA8Redirect3url5token7Combine12AnyPublisherVyAA05ModelaG0VAA8APIErrorOGSS_SStF",
+            "mangledName": "$s20Digilocker_Framework18RepositoryProtocolP06getForA8Redirect3url5token7Combine12AnyPublisherVyAA05ModelaG0VAA8APIErrorOGSS_SStF",
+            "moduleName": "Digilocker_Framework",
+            "genericSig": "<τ_0_0 where τ_0_0 : Digilocker_Framework.RepositoryProtocol>",
+            "sugared_genericSig": "<Self where Self : Digilocker_Framework.RepositoryProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getForStatus",
+            "printedName": "getForStatus(url:token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<Digilocker_Framework.ModelStatus, Digilocker_Framework.APIError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModelStatus",
+                    "printedName": "Digilocker_Framework.ModelStatus",
+                    "usr": "s:20Digilocker_Framework11ModelStatusV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIError",
+                    "printedName": "Digilocker_Framework.APIError",
+                    "usr": "s:20Digilocker_Framework8APIErrorO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20Digilocker_Framework18RepositoryProtocolP12getForStatus3url5token7Combine12AnyPublisherVyAA05ModelG0VAA8APIErrorOGSS_SStF",
+            "mangledName": "$s20Digilocker_Framework18RepositoryProtocolP12getForStatus3url5token7Combine12AnyPublisherVyAA05ModelG0VAA8APIErrorOGSS_SStF",
+            "moduleName": "Digilocker_Framework",
+            "genericSig": "<τ_0_0 where τ_0_0 : Digilocker_Framework.RepositoryProtocol>",
+            "sugared_genericSig": "<Self where Self : Digilocker_Framework.RepositoryProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:20Digilocker_Framework18RepositoryProtocolP",
+        "mangledName": "$s20Digilocker_Framework18RepositoryProtocolP",
+        "moduleName": "Digilocker_Framework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Repository",
+        "printedName": "Repository",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(apiService:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Repository",
+                "printedName": "Digilocker_Framework.Repository",
+                "usr": "s:20Digilocker_Framework10RepositoryC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "APIServiceProtocol",
+                "printedName": "any Digilocker_Framework.APIServiceProtocol",
+                "hasDefaultArg": true,
+                "usr": "s:20Digilocker_Framework18APIServiceProtocolP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20Digilocker_Framework10RepositoryC10apiServiceAcA18APIServiceProtocol_p_tcfc",
+            "mangledName": "$s20Digilocker_Framework10RepositoryC10apiServiceAcA18APIServiceProtocol_p_tcfc",
+            "moduleName": "Digilocker_Framework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "postFootprint",
+            "printedName": "postFootprint(url:request:token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<Digilocker_Framework.ModelFootprintResponse, Digilocker_Framework.APIError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModelFootprintResponse",
+                    "printedName": "Digilocker_Framework.ModelFootprintResponse",
+                    "usr": "s:20Digilocker_Framework22ModelFootprintResponseV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIError",
+                    "printedName": "Digilocker_Framework.APIError",
+                    "usr": "s:20Digilocker_Framework8APIErrorO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ModelFootprintRequest",
+                "printedName": "Digilocker_Framework.ModelFootprintRequest",
+                "usr": "s:20Digilocker_Framework21ModelFootprintRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20Digilocker_Framework10RepositoryC13postFootprint3url7request5token7Combine12AnyPublisherVyAA05ModelE8ResponseVAA8APIErrorOGSS_AA0lE7RequestVSStF",
+            "mangledName": "$s20Digilocker_Framework10RepositoryC13postFootprint3url7request5token7Combine12AnyPublisherVyAA05ModelE8ResponseVAA8APIErrorOGSS_AA0lE7RequestVSStF",
+            "moduleName": "Digilocker_Framework",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getForOptions",
+            "printedName": "getForOptions(url:token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<Digilocker_Framework.ModelOptions, Digilocker_Framework.APIError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModelOptions",
+                    "printedName": "Digilocker_Framework.ModelOptions",
+                    "usr": "s:20Digilocker_Framework12ModelOptionsV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIError",
+                    "printedName": "Digilocker_Framework.APIError",
+                    "usr": "s:20Digilocker_Framework8APIErrorO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20Digilocker_Framework10RepositoryC13getForOptions3url5token7Combine12AnyPublisherVyAA05ModelF0VAA8APIErrorOGSS_SStF",
+            "mangledName": "$s20Digilocker_Framework10RepositoryC13getForOptions3url5token7Combine12AnyPublisherVyAA05ModelF0VAA8APIErrorOGSS_SStF",
+            "moduleName": "Digilocker_Framework",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getForDigilockerRedirect",
+            "printedName": "getForDigilockerRedirect(url:token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<Digilocker_Framework.ModelDigilockerRedirect, Digilocker_Framework.APIError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModelDigilockerRedirect",
+                    "printedName": "Digilocker_Framework.ModelDigilockerRedirect",
+                    "usr": "s:20Digilocker_Framework05ModelA8RedirectV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIError",
+                    "printedName": "Digilocker_Framework.APIError",
+                    "usr": "s:20Digilocker_Framework8APIErrorO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20Digilocker_Framework10RepositoryC06getForA8Redirect3url5token7Combine12AnyPublisherVyAA05ModelaF0VAA8APIErrorOGSS_SStF",
+            "mangledName": "$s20Digilocker_Framework10RepositoryC06getForA8Redirect3url5token7Combine12AnyPublisherVyAA05ModelaF0VAA8APIErrorOGSS_SStF",
+            "moduleName": "Digilocker_Framework",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getForStatus",
+            "printedName": "getForStatus(url:token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<Digilocker_Framework.ModelStatus, Digilocker_Framework.APIError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModelStatus",
+                    "printedName": "Digilocker_Framework.ModelStatus",
+                    "usr": "s:20Digilocker_Framework11ModelStatusV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIError",
+                    "printedName": "Digilocker_Framework.APIError",
+                    "usr": "s:20Digilocker_Framework8APIErrorO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20Digilocker_Framework10RepositoryC12getForStatus3url5token7Combine12AnyPublisherVyAA05ModelF0VAA8APIErrorOGSS_SStF",
+            "mangledName": "$s20Digilocker_Framework10RepositoryC12getForStatus3url5token7Combine12AnyPublisherVyAA05ModelF0VAA8APIErrorOGSS_SStF",
+            "moduleName": "Digilocker_Framework",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "postFootprintAsync",
+            "printedName": "postFootprintAsync(url:request:token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModelFootprintResponse",
+                "printedName": "Digilocker_Framework.ModelFootprintResponse",
+                "usr": "s:20Digilocker_Framework22ModelFootprintResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ModelFootprintRequest",
+                "printedName": "Digilocker_Framework.ModelFootprintRequest",
+                "usr": "s:20Digilocker_Framework21ModelFootprintRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20Digilocker_Framework10RepositoryC18postFootprintAsync3url7request5tokenAA05ModelE8ResponseVSS_AA0jE7RequestVSStYaKF",
+            "mangledName": "$s20Digilocker_Framework10RepositoryC18postFootprintAsync3url7request5tokenAA05ModelE8ResponseVSS_AA0jE7RequestVSStYaKF",
+            "moduleName": "Digilocker_Framework",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getForOptionsAsync",
+            "printedName": "getForOptionsAsync(url:token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModelOptions",
+                "printedName": "Digilocker_Framework.ModelOptions",
+                "usr": "s:20Digilocker_Framework12ModelOptionsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20Digilocker_Framework10RepositoryC18getForOptionsAsync3url5tokenAA05ModelF0VSS_SStYaKF",
+            "mangledName": "$s20Digilocker_Framework10RepositoryC18getForOptionsAsync3url5tokenAA05ModelF0VSS_SStYaKF",
+            "moduleName": "Digilocker_Framework",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getForDigilockerRedirectAsync",
+            "printedName": "getForDigilockerRedirectAsync(url:token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModelDigilockerRedirect",
+                "printedName": "Digilocker_Framework.ModelDigilockerRedirect",
+                "usr": "s:20Digilocker_Framework05ModelA8RedirectV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20Digilocker_Framework10RepositoryC06getForA13RedirectAsync3url5tokenAA05ModelaF0VSS_SStYaKF",
+            "mangledName": "$s20Digilocker_Framework10RepositoryC06getForA13RedirectAsync3url5tokenAA05ModelaF0VSS_SStYaKF",
+            "moduleName": "Digilocker_Framework",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getForStatusAsync",
+            "printedName": "getForStatusAsync(url:token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModelStatus",
+                "printedName": "Digilocker_Framework.ModelStatus",
+                "usr": "s:20Digilocker_Framework11ModelStatusV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20Digilocker_Framework10RepositoryC17getForStatusAsync3url5tokenAA05ModelF0VSS_SStYaKF",
+            "mangledName": "$s20Digilocker_Framework10RepositoryC17getForStatusAsync3url5tokenAA05ModelF0VSS_SStYaKF",
+            "moduleName": "Digilocker_Framework",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20Digilocker_Framework10RepositoryC",
+        "mangledName": "$s20Digilocker_Framework10RepositoryC",
+        "moduleName": "Digilocker_Framework",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RepositoryProtocol",
+            "printedName": "RepositoryProtocol",
+            "usr": "s:20Digilocker_Framework18RepositoryProtocolP",
+            "mangledName": "$s20Digilocker_Framework18RepositoryProtocolP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -2011,6 +3280,26 @@
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
+        "moduleName": "Digilocker_Framework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Digilocker_Framework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
         "moduleName": "Digilocker_Framework"
       },
       {
@@ -2021,649 +3310,6 @@
         "moduleName": "Digilocker_Framework"
       },
       {
-        "kind": "TypeDecl",
-        "name": "InitSDKView",
-        "printedName": "InitSDKView",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "environment",
-            "printedName": "environment",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:20Digilocker_Framework11InitSDKViewV11environmentSSvp",
-            "mangledName": "$s20Digilocker_Framework11InitSDKViewV11environmentSSvp",
-            "moduleName": "Digilocker_Framework",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20Digilocker_Framework11InitSDKViewV11environmentSSvg",
-                "mangledName": "$s20Digilocker_Framework11InitSDKViewV11environmentSSvg",
-                "moduleName": "Digilocker_Framework",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "token",
-            "printedName": "token",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:20Digilocker_Framework11InitSDKViewV5tokenSSvp",
-            "mangledName": "$s20Digilocker_Framework11InitSDKViewV5tokenSSvp",
-            "moduleName": "Digilocker_Framework",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20Digilocker_Framework11InitSDKViewV5tokenSSvg",
-                "mangledName": "$s20Digilocker_Framework11InitSDKViewV5tokenSSvg",
-                "moduleName": "Digilocker_Framework",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "onCompletion",
-            "printedName": "onCompletion",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.String) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:20Digilocker_Framework11InitSDKViewV12onCompletionyySScvp",
-            "mangledName": "$s20Digilocker_Framework11InitSDKViewV12onCompletionyySScvp",
-            "moduleName": "Digilocker_Framework",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20Digilocker_Framework11InitSDKViewV12onCompletionyySScvg",
-                "mangledName": "$s20Digilocker_Framework11InitSDKViewV12onCompletionyySScvg",
-                "moduleName": "Digilocker_Framework",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "onFailure",
-            "printedName": "onFailure",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.String) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:20Digilocker_Framework11InitSDKViewV9onFailureyySScvp",
-            "mangledName": "$s20Digilocker_Framework11InitSDKViewV9onFailureyySScvp",
-            "moduleName": "Digilocker_Framework",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20Digilocker_Framework11InitSDKViewV9onFailureyySScvg",
-                "mangledName": "$s20Digilocker_Framework11InitSDKViewV9onFailureyySScvg",
-                "moduleName": "Digilocker_Framework",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(environment:token:onCompletion:onFailure:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "InitSDKView",
-                "printedName": "Digilocker_Framework.InitSDKView",
-                "usr": "s:20Digilocker_Framework11InitSDKViewV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.String) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.String) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:20Digilocker_Framework11InitSDKViewV11environment5token12onCompletion0G7FailureACSS_SSySScySSctcfc",
-            "mangledName": "$s20Digilocker_Framework11InitSDKViewV11environment5token12onCompletion0G7FailureACSS_SSySScySSctcfc",
-            "moduleName": "Digilocker_Framework",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:20Digilocker_Framework11InitSDKViewV4bodyQrvp",
-            "mangledName": "$s20Digilocker_Framework11InitSDKViewV4bodyQrvp",
-            "moduleName": "Digilocker_Framework",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20Digilocker_Framework11InitSDKViewV4bodyQrvg",
-                "mangledName": "$s20Digilocker_Framework11InitSDKViewV4bodyQrvg",
-                "moduleName": "Digilocker_Framework",
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:20Digilocker_Framework11InitSDKViewV",
-        "mangledName": "$s20Digilocker_Framework11InitSDKViewV",
-        "moduleName": "Digilocker_Framework",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Env",
-        "printedName": "Env",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "PROD",
-            "printedName": "PROD",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Digilocker_Framework.Env.Type) -> Digilocker_Framework.Env",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Env",
-                    "printedName": "Digilocker_Framework.Env",
-                    "usr": "s:20Digilocker_Framework3EnvO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Digilocker_Framework.Env.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Env",
-                        "printedName": "Digilocker_Framework.Env",
-                        "usr": "s:20Digilocker_Framework3EnvO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:20Digilocker_Framework3EnvO4PRODyA2CmF",
-            "mangledName": "$s20Digilocker_Framework3EnvO4PRODyA2CmF",
-            "moduleName": "Digilocker_Framework"
-          },
-          {
-            "kind": "Var",
-            "name": "SANDBOX",
-            "printedName": "SANDBOX",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Digilocker_Framework.Env.Type) -> Digilocker_Framework.Env",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Env",
-                    "printedName": "Digilocker_Framework.Env",
-                    "usr": "s:20Digilocker_Framework3EnvO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Digilocker_Framework.Env.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Env",
-                        "printedName": "Digilocker_Framework.Env",
-                        "usr": "s:20Digilocker_Framework3EnvO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:20Digilocker_Framework3EnvO7SANDBOXyA2CmF",
-            "mangledName": "$s20Digilocker_Framework3EnvO7SANDBOXyA2CmF",
-            "moduleName": "Digilocker_Framework"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:20Digilocker_Framework3EnvO8rawValueSSvp",
-            "mangledName": "$s20Digilocker_Framework3EnvO8rawValueSSvp",
-            "moduleName": "Digilocker_Framework",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20Digilocker_Framework3EnvO8rawValueSSvg",
-                "mangledName": "$s20Digilocker_Framework3EnvO8rawValueSSvg",
-                "moduleName": "Digilocker_Framework",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Digilocker_Framework.Env?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Env",
-                    "printedName": "Digilocker_Framework.Env",
-                    "usr": "s:20Digilocker_Framework3EnvO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:20Digilocker_Framework3EnvO8rawValueACSgSS_tcfc",
-            "mangledName": "$s20Digilocker_Framework3EnvO8rawValueACSgSS_tcfc",
-            "moduleName": "Digilocker_Framework",
-            "implicit": true,
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:20Digilocker_Framework3EnvO",
-        "mangledName": "$s20Digilocker_Framework3EnvO",
-        "moduleName": "Digilocker_Framework",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "enumRawTypeName": "String",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
@@ -2672,27 +3318,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "Digilocker_Framework"
-      },
-      {
-        "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "Digilocker_Framework"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Digilocker_Framework"
       },
       {
         "kind": "Import",
@@ -2717,1111 +3342,6 @@
         "printedName": "WebKit",
         "declKind": "Import",
         "moduleName": "Digilocker_Framework"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "Digilocker_Framework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "Digilocker_Framework"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Digilocker_Framework"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ModelFootprintRequest",
-        "printedName": "ModelFootprintRequest",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "event",
-            "printedName": "event",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:20Digilocker_Framework21ModelFootprintRequestV5eventSSvp",
-            "mangledName": "$s20Digilocker_Framework21ModelFootprintRequestV5eventSSvp",
-            "moduleName": "Digilocker_Framework",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20Digilocker_Framework21ModelFootprintRequestV5eventSSvg",
-                "mangledName": "$s20Digilocker_Framework21ModelFootprintRequestV5eventSSvg",
-                "moduleName": "Digilocker_Framework",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(event:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ModelFootprintRequest",
-                "printedName": "Digilocker_Framework.ModelFootprintRequest",
-                "usr": "s:20Digilocker_Framework21ModelFootprintRequestV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:20Digilocker_Framework21ModelFootprintRequestV5eventACSS_tcfc",
-            "mangledName": "$s20Digilocker_Framework21ModelFootprintRequestV5eventACSS_tcfc",
-            "moduleName": "Digilocker_Framework",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ModelFootprintRequest",
-                "printedName": "Digilocker_Framework.ModelFootprintRequest",
-                "usr": "s:20Digilocker_Framework21ModelFootprintRequestV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:20Digilocker_Framework21ModelFootprintRequestV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s20Digilocker_Framework21ModelFootprintRequestV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "Digilocker_Framework",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20Digilocker_Framework21ModelFootprintRequestV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s20Digilocker_Framework21ModelFootprintRequestV6encode2toys7Encoder_p_tKF",
-            "moduleName": "Digilocker_Framework",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:20Digilocker_Framework21ModelFootprintRequestV",
-        "mangledName": "$s20Digilocker_Framework21ModelFootprintRequestV",
-        "moduleName": "Digilocker_Framework",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ModelFootprintResponse",
-        "printedName": "ModelFootprintResponse",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ModelFootprintResponse",
-                "printedName": "Digilocker_Framework.ModelFootprintResponse",
-                "usr": "s:20Digilocker_Framework22ModelFootprintResponseV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:20Digilocker_Framework22ModelFootprintResponseV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s20Digilocker_Framework22ModelFootprintResponseV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "Digilocker_Framework",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20Digilocker_Framework22ModelFootprintResponseV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s20Digilocker_Framework22ModelFootprintResponseV6encode2toys7Encoder_p_tKF",
-            "moduleName": "Digilocker_Framework",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:20Digilocker_Framework22ModelFootprintResponseV",
-        "mangledName": "$s20Digilocker_Framework22ModelFootprintResponseV",
-        "moduleName": "Digilocker_Framework",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "FootprintData",
-        "printedName": "FootprintData",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "success",
-            "printedName": "success",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:20Digilocker_Framework13FootprintDataV7successSbvp",
-            "mangledName": "$s20Digilocker_Framework13FootprintDataV7successSbvp",
-            "moduleName": "Digilocker_Framework",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20Digilocker_Framework13FootprintDataV7successSbvg",
-                "mangledName": "$s20Digilocker_Framework13FootprintDataV7successSbvg",
-                "moduleName": "Digilocker_Framework",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(success:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "FootprintData",
-                "printedName": "Digilocker_Framework.FootprintData",
-                "usr": "s:20Digilocker_Framework13FootprintDataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:20Digilocker_Framework13FootprintDataV7successACSb_tcfc",
-            "mangledName": "$s20Digilocker_Framework13FootprintDataV7successACSb_tcfc",
-            "moduleName": "Digilocker_Framework",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "FootprintData",
-                "printedName": "Digilocker_Framework.FootprintData",
-                "usr": "s:20Digilocker_Framework13FootprintDataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:20Digilocker_Framework13FootprintDataV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s20Digilocker_Framework13FootprintDataV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "Digilocker_Framework",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20Digilocker_Framework13FootprintDataV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s20Digilocker_Framework13FootprintDataV6encode2toys7Encoder_p_tKF",
-            "moduleName": "Digilocker_Framework",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:20Digilocker_Framework13FootprintDataV",
-        "mangledName": "$s20Digilocker_Framework13FootprintDataV",
-        "moduleName": "Digilocker_Framework",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Digilocker_Framework"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "Digilocker_Framework"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Digilocker_Framework"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ModelTokenEnv",
-        "printedName": "ModelTokenEnv",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "token",
-            "printedName": "token",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:20Digilocker_Framework13ModelTokenEnvV5tokenSSSgvp",
-            "mangledName": "$s20Digilocker_Framework13ModelTokenEnvV5tokenSSSgvp",
-            "moduleName": "Digilocker_Framework",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20Digilocker_Framework13ModelTokenEnvV5tokenSSSgvg",
-                "mangledName": "$s20Digilocker_Framework13ModelTokenEnvV5tokenSSSgvg",
-                "moduleName": "Digilocker_Framework",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "clientId",
-            "printedName": "clientId",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:20Digilocker_Framework13ModelTokenEnvV8clientIdSSSgvp",
-            "mangledName": "$s20Digilocker_Framework13ModelTokenEnvV8clientIdSSSgvp",
-            "moduleName": "Digilocker_Framework",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20Digilocker_Framework13ModelTokenEnvV8clientIdSSSgvg",
-                "mangledName": "$s20Digilocker_Framework13ModelTokenEnvV8clientIdSSSgvg",
-                "moduleName": "Digilocker_Framework",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "env",
-            "printedName": "env",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:20Digilocker_Framework13ModelTokenEnvV3envSSSgvp",
-            "mangledName": "$s20Digilocker_Framework13ModelTokenEnvV3envSSSgvp",
-            "moduleName": "Digilocker_Framework",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20Digilocker_Framework13ModelTokenEnvV3envSSSgvg",
-                "mangledName": "$s20Digilocker_Framework13ModelTokenEnvV3envSSSgvg",
-                "moduleName": "Digilocker_Framework",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "url",
-            "printedName": "url",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:20Digilocker_Framework13ModelTokenEnvV3urlSSSgvp",
-            "mangledName": "$s20Digilocker_Framework13ModelTokenEnvV3urlSSSgvp",
-            "moduleName": "Digilocker_Framework",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20Digilocker_Framework13ModelTokenEnvV3urlSSSgvg",
-                "mangledName": "$s20Digilocker_Framework13ModelTokenEnvV3urlSSSgvg",
-                "moduleName": "Digilocker_Framework",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(token:clientId:env:url:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ModelTokenEnv",
-                "printedName": "Digilocker_Framework.ModelTokenEnv",
-                "usr": "s:20Digilocker_Framework13ModelTokenEnvV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:20Digilocker_Framework13ModelTokenEnvV5token8clientId3env3urlACSSSg_A3Htcfc",
-            "mangledName": "$s20Digilocker_Framework13ModelTokenEnvV5token8clientId3env3urlACSSSg_A3Htcfc",
-            "moduleName": "Digilocker_Framework",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ModelTokenEnv",
-                "printedName": "Digilocker_Framework.ModelTokenEnv",
-                "usr": "s:20Digilocker_Framework13ModelTokenEnvV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:20Digilocker_Framework13ModelTokenEnvV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s20Digilocker_Framework13ModelTokenEnvV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "Digilocker_Framework",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20Digilocker_Framework13ModelTokenEnvV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s20Digilocker_Framework13ModelTokenEnvV6encode2toys7Encoder_p_tKF",
-            "moduleName": "Digilocker_Framework",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:20Digilocker_Framework13ModelTokenEnvV",
-        "mangledName": "$s20Digilocker_Framework13ModelTokenEnvV",
-        "moduleName": "Digilocker_Framework",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Digilocker_Framework"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "Digilocker_Framework"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "Digilocker_Framework"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Digilocker_Framework"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Digilocker_Framework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ModelStatus",
-        "printedName": "ModelStatus",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ModelStatus",
-                "printedName": "Digilocker_Framework.ModelStatus",
-                "usr": "s:20Digilocker_Framework11ModelStatusV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:20Digilocker_Framework11ModelStatusV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s20Digilocker_Framework11ModelStatusV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "Digilocker_Framework",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20Digilocker_Framework11ModelStatusV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s20Digilocker_Framework11ModelStatusV6encode2toys7Encoder_p_tKF",
-            "moduleName": "Digilocker_Framework",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:20Digilocker_Framework11ModelStatusV",
-        "mangledName": "$s20Digilocker_Framework11ModelStatusV",
-        "moduleName": "Digilocker_Framework",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Digilocker_Framework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Digilocker",
-        "printedName": "Digilocker",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(env:token:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Digilocker",
-                "printedName": "Digilocker_Framework.Digilocker",
-                "usr": "s:20Digilocker_Framework0A0C"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:20Digilocker_Framework0A0C3env5tokenACSS_SStcfc",
-            "mangledName": "$s20Digilocker_Framework0A0C3env5tokenACSS_SStcfc",
-            "moduleName": "Digilocker_Framework",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:20Digilocker_Framework0A0C",
-        "mangledName": "$s20Digilocker_Framework0A0C",
-        "moduleName": "Digilocker_Framework",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "Digilocker_Framework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -4560,663 +4080,41 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Digilocker_Framework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "Digilocker_Framework"
       },
       {
         "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
+        "name": "WebKit",
+        "printedName": "WebKit",
         "declKind": "Import",
         "moduleName": "Digilocker_Framework"
       },
       {
-        "kind": "TypeDecl",
-        "name": "RepositoryProtocol",
-        "printedName": "RepositoryProtocol",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "postFootprint",
-            "printedName": "postFootprint(url:request:token:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AnyPublisher",
-                "printedName": "Combine.AnyPublisher<Digilocker_Framework.ModelFootprintResponse, Digilocker_Framework.APIError>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ModelFootprintResponse",
-                    "printedName": "Digilocker_Framework.ModelFootprintResponse",
-                    "usr": "s:20Digilocker_Framework22ModelFootprintResponseV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "APIError",
-                    "printedName": "Digilocker_Framework.APIError",
-                    "usr": "s:20Digilocker_Framework8APIErrorO"
-                  }
-                ],
-                "usr": "s:7Combine12AnyPublisherV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ModelFootprintRequest",
-                "printedName": "Digilocker_Framework.ModelFootprintRequest",
-                "usr": "s:20Digilocker_Framework21ModelFootprintRequestV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20Digilocker_Framework18RepositoryProtocolP13postFootprint3url7request5token7Combine12AnyPublisherVyAA05ModelF8ResponseVAA8APIErrorOGSS_AA0mF7RequestVSStF",
-            "mangledName": "$s20Digilocker_Framework18RepositoryProtocolP13postFootprint3url7request5token7Combine12AnyPublisherVyAA05ModelF8ResponseVAA8APIErrorOGSS_AA0mF7RequestVSStF",
-            "moduleName": "Digilocker_Framework",
-            "genericSig": "<τ_0_0 where τ_0_0 : Digilocker_Framework.RepositoryProtocol>",
-            "sugared_genericSig": "<Self where Self : Digilocker_Framework.RepositoryProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getForOptions",
-            "printedName": "getForOptions(url:token:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AnyPublisher",
-                "printedName": "Combine.AnyPublisher<Digilocker_Framework.ModelOptions, Digilocker_Framework.APIError>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ModelOptions",
-                    "printedName": "Digilocker_Framework.ModelOptions",
-                    "usr": "s:20Digilocker_Framework12ModelOptionsV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "APIError",
-                    "printedName": "Digilocker_Framework.APIError",
-                    "usr": "s:20Digilocker_Framework8APIErrorO"
-                  }
-                ],
-                "usr": "s:7Combine12AnyPublisherV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20Digilocker_Framework18RepositoryProtocolP13getForOptions3url5token7Combine12AnyPublisherVyAA05ModelG0VAA8APIErrorOGSS_SStF",
-            "mangledName": "$s20Digilocker_Framework18RepositoryProtocolP13getForOptions3url5token7Combine12AnyPublisherVyAA05ModelG0VAA8APIErrorOGSS_SStF",
-            "moduleName": "Digilocker_Framework",
-            "genericSig": "<τ_0_0 where τ_0_0 : Digilocker_Framework.RepositoryProtocol>",
-            "sugared_genericSig": "<Self where Self : Digilocker_Framework.RepositoryProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getForDigilockerRedirect",
-            "printedName": "getForDigilockerRedirect(url:token:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AnyPublisher",
-                "printedName": "Combine.AnyPublisher<Digilocker_Framework.ModelDigilockerRedirect, Digilocker_Framework.APIError>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ModelDigilockerRedirect",
-                    "printedName": "Digilocker_Framework.ModelDigilockerRedirect",
-                    "usr": "s:20Digilocker_Framework05ModelA8RedirectV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "APIError",
-                    "printedName": "Digilocker_Framework.APIError",
-                    "usr": "s:20Digilocker_Framework8APIErrorO"
-                  }
-                ],
-                "usr": "s:7Combine12AnyPublisherV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20Digilocker_Framework18RepositoryProtocolP06getForA8Redirect3url5token7Combine12AnyPublisherVyAA05ModelaG0VAA8APIErrorOGSS_SStF",
-            "mangledName": "$s20Digilocker_Framework18RepositoryProtocolP06getForA8Redirect3url5token7Combine12AnyPublisherVyAA05ModelaG0VAA8APIErrorOGSS_SStF",
-            "moduleName": "Digilocker_Framework",
-            "genericSig": "<τ_0_0 where τ_0_0 : Digilocker_Framework.RepositoryProtocol>",
-            "sugared_genericSig": "<Self where Self : Digilocker_Framework.RepositoryProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getForStatus",
-            "printedName": "getForStatus(url:token:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AnyPublisher",
-                "printedName": "Combine.AnyPublisher<Digilocker_Framework.ModelStatus, Digilocker_Framework.APIError>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ModelStatus",
-                    "printedName": "Digilocker_Framework.ModelStatus",
-                    "usr": "s:20Digilocker_Framework11ModelStatusV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "APIError",
-                    "printedName": "Digilocker_Framework.APIError",
-                    "usr": "s:20Digilocker_Framework8APIErrorO"
-                  }
-                ],
-                "usr": "s:7Combine12AnyPublisherV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20Digilocker_Framework18RepositoryProtocolP12getForStatus3url5token7Combine12AnyPublisherVyAA05ModelG0VAA8APIErrorOGSS_SStF",
-            "mangledName": "$s20Digilocker_Framework18RepositoryProtocolP12getForStatus3url5token7Combine12AnyPublisherVyAA05ModelG0VAA8APIErrorOGSS_SStF",
-            "moduleName": "Digilocker_Framework",
-            "genericSig": "<τ_0_0 where τ_0_0 : Digilocker_Framework.RepositoryProtocol>",
-            "sugared_genericSig": "<Self where Self : Digilocker_Framework.RepositoryProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:20Digilocker_Framework18RepositoryProtocolP",
-        "mangledName": "$s20Digilocker_Framework18RepositoryProtocolP",
-        "moduleName": "Digilocker_Framework",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Digilocker_Framework"
       },
       {
-        "kind": "TypeDecl",
-        "name": "Repository",
-        "printedName": "Repository",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(apiService:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Repository",
-                "printedName": "Digilocker_Framework.Repository",
-                "usr": "s:20Digilocker_Framework10RepositoryC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "APIServiceProtocol",
-                "printedName": "any Digilocker_Framework.APIServiceProtocol",
-                "hasDefaultArg": true,
-                "usr": "s:20Digilocker_Framework18APIServiceProtocolP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:20Digilocker_Framework10RepositoryC10apiServiceAcA18APIServiceProtocol_p_tcfc",
-            "mangledName": "$s20Digilocker_Framework10RepositoryC10apiServiceAcA18APIServiceProtocol_p_tcfc",
-            "moduleName": "Digilocker_Framework",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "postFootprint",
-            "printedName": "postFootprint(url:request:token:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AnyPublisher",
-                "printedName": "Combine.AnyPublisher<Digilocker_Framework.ModelFootprintResponse, Digilocker_Framework.APIError>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ModelFootprintResponse",
-                    "printedName": "Digilocker_Framework.ModelFootprintResponse",
-                    "usr": "s:20Digilocker_Framework22ModelFootprintResponseV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "APIError",
-                    "printedName": "Digilocker_Framework.APIError",
-                    "usr": "s:20Digilocker_Framework8APIErrorO"
-                  }
-                ],
-                "usr": "s:7Combine12AnyPublisherV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ModelFootprintRequest",
-                "printedName": "Digilocker_Framework.ModelFootprintRequest",
-                "usr": "s:20Digilocker_Framework21ModelFootprintRequestV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20Digilocker_Framework10RepositoryC13postFootprint3url7request5token7Combine12AnyPublisherVyAA05ModelE8ResponseVAA8APIErrorOGSS_AA0lE7RequestVSStF",
-            "mangledName": "$s20Digilocker_Framework10RepositoryC13postFootprint3url7request5token7Combine12AnyPublisherVyAA05ModelE8ResponseVAA8APIErrorOGSS_AA0lE7RequestVSStF",
-            "moduleName": "Digilocker_Framework",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getForOptions",
-            "printedName": "getForOptions(url:token:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AnyPublisher",
-                "printedName": "Combine.AnyPublisher<Digilocker_Framework.ModelOptions, Digilocker_Framework.APIError>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ModelOptions",
-                    "printedName": "Digilocker_Framework.ModelOptions",
-                    "usr": "s:20Digilocker_Framework12ModelOptionsV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "APIError",
-                    "printedName": "Digilocker_Framework.APIError",
-                    "usr": "s:20Digilocker_Framework8APIErrorO"
-                  }
-                ],
-                "usr": "s:7Combine12AnyPublisherV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20Digilocker_Framework10RepositoryC13getForOptions3url5token7Combine12AnyPublisherVyAA05ModelF0VAA8APIErrorOGSS_SStF",
-            "mangledName": "$s20Digilocker_Framework10RepositoryC13getForOptions3url5token7Combine12AnyPublisherVyAA05ModelF0VAA8APIErrorOGSS_SStF",
-            "moduleName": "Digilocker_Framework",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getForDigilockerRedirect",
-            "printedName": "getForDigilockerRedirect(url:token:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AnyPublisher",
-                "printedName": "Combine.AnyPublisher<Digilocker_Framework.ModelDigilockerRedirect, Digilocker_Framework.APIError>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ModelDigilockerRedirect",
-                    "printedName": "Digilocker_Framework.ModelDigilockerRedirect",
-                    "usr": "s:20Digilocker_Framework05ModelA8RedirectV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "APIError",
-                    "printedName": "Digilocker_Framework.APIError",
-                    "usr": "s:20Digilocker_Framework8APIErrorO"
-                  }
-                ],
-                "usr": "s:7Combine12AnyPublisherV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20Digilocker_Framework10RepositoryC06getForA8Redirect3url5token7Combine12AnyPublisherVyAA05ModelaF0VAA8APIErrorOGSS_SStF",
-            "mangledName": "$s20Digilocker_Framework10RepositoryC06getForA8Redirect3url5token7Combine12AnyPublisherVyAA05ModelaF0VAA8APIErrorOGSS_SStF",
-            "moduleName": "Digilocker_Framework",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getForStatus",
-            "printedName": "getForStatus(url:token:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AnyPublisher",
-                "printedName": "Combine.AnyPublisher<Digilocker_Framework.ModelStatus, Digilocker_Framework.APIError>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ModelStatus",
-                    "printedName": "Digilocker_Framework.ModelStatus",
-                    "usr": "s:20Digilocker_Framework11ModelStatusV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "APIError",
-                    "printedName": "Digilocker_Framework.APIError",
-                    "usr": "s:20Digilocker_Framework8APIErrorO"
-                  }
-                ],
-                "usr": "s:7Combine12AnyPublisherV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20Digilocker_Framework10RepositoryC12getForStatus3url5token7Combine12AnyPublisherVyAA05ModelF0VAA8APIErrorOGSS_SStF",
-            "mangledName": "$s20Digilocker_Framework10RepositoryC12getForStatus3url5token7Combine12AnyPublisherVyAA05ModelF0VAA8APIErrorOGSS_SStF",
-            "moduleName": "Digilocker_Framework",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "postFootprintAsync",
-            "printedName": "postFootprintAsync(url:request:token:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ModelFootprintResponse",
-                "printedName": "Digilocker_Framework.ModelFootprintResponse",
-                "usr": "s:20Digilocker_Framework22ModelFootprintResponseV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ModelFootprintRequest",
-                "printedName": "Digilocker_Framework.ModelFootprintRequest",
-                "usr": "s:20Digilocker_Framework21ModelFootprintRequestV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20Digilocker_Framework10RepositoryC18postFootprintAsync3url7request5tokenAA05ModelE8ResponseVSS_AA0jE7RequestVSStYaKF",
-            "mangledName": "$s20Digilocker_Framework10RepositoryC18postFootprintAsync3url7request5tokenAA05ModelE8ResponseVSS_AA0jE7RequestVSStYaKF",
-            "moduleName": "Digilocker_Framework",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getForOptionsAsync",
-            "printedName": "getForOptionsAsync(url:token:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ModelOptions",
-                "printedName": "Digilocker_Framework.ModelOptions",
-                "usr": "s:20Digilocker_Framework12ModelOptionsV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20Digilocker_Framework10RepositoryC18getForOptionsAsync3url5tokenAA05ModelF0VSS_SStYaKF",
-            "mangledName": "$s20Digilocker_Framework10RepositoryC18getForOptionsAsync3url5tokenAA05ModelF0VSS_SStYaKF",
-            "moduleName": "Digilocker_Framework",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getForDigilockerRedirectAsync",
-            "printedName": "getForDigilockerRedirectAsync(url:token:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ModelDigilockerRedirect",
-                "printedName": "Digilocker_Framework.ModelDigilockerRedirect",
-                "usr": "s:20Digilocker_Framework05ModelA8RedirectV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20Digilocker_Framework10RepositoryC06getForA13RedirectAsync3url5tokenAA05ModelaF0VSS_SStYaKF",
-            "mangledName": "$s20Digilocker_Framework10RepositoryC06getForA13RedirectAsync3url5tokenAA05ModelaF0VSS_SStYaKF",
-            "moduleName": "Digilocker_Framework",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getForStatusAsync",
-            "printedName": "getForStatusAsync(url:token:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ModelStatus",
-                "printedName": "Digilocker_Framework.ModelStatus",
-                "usr": "s:20Digilocker_Framework11ModelStatusV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20Digilocker_Framework10RepositoryC17getForStatusAsync3url5tokenAA05ModelF0VSS_SStYaKF",
-            "mangledName": "$s20Digilocker_Framework10RepositoryC17getForStatusAsync3url5tokenAA05ModelF0VSS_SStYaKF",
-            "moduleName": "Digilocker_Framework",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:20Digilocker_Framework10RepositoryC",
-        "mangledName": "$s20Digilocker_Framework10RepositoryC",
-        "moduleName": "Digilocker_Framework",
-        "declAttributes": [
-          "Final",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RepositoryProtocol",
-            "printedName": "RepositoryProtocol",
-            "usr": "s:20Digilocker_Framework18RepositoryProtocolP",
-            "mangledName": "$s20Digilocker_Framework18RepositoryProtocolP"
-          }
-        ]
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Digilocker_Framework"
       },
       {
         "kind": "Import",
@@ -6380,10 +5278,7 @@
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
-        "moduleName": "Digilocker_Framework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "Digilocker_Framework"
       },
       {
         "kind": "Import",
@@ -6394,10 +5289,454 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "Digilocker_Framework"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "Digilocker_Framework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Digilocker_Framework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Digilocker_Framework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ModelTokenEnv",
+        "printedName": "ModelTokenEnv",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20Digilocker_Framework13ModelTokenEnvV5tokenSSSgvp",
+            "mangledName": "$s20Digilocker_Framework13ModelTokenEnvV5tokenSSSgvp",
+            "moduleName": "Digilocker_Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20Digilocker_Framework13ModelTokenEnvV5tokenSSSgvg",
+                "mangledName": "$s20Digilocker_Framework13ModelTokenEnvV5tokenSSSgvg",
+                "moduleName": "Digilocker_Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "clientId",
+            "printedName": "clientId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20Digilocker_Framework13ModelTokenEnvV8clientIdSSSgvp",
+            "mangledName": "$s20Digilocker_Framework13ModelTokenEnvV8clientIdSSSgvp",
+            "moduleName": "Digilocker_Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20Digilocker_Framework13ModelTokenEnvV8clientIdSSSgvg",
+                "mangledName": "$s20Digilocker_Framework13ModelTokenEnvV8clientIdSSSgvg",
+                "moduleName": "Digilocker_Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "env",
+            "printedName": "env",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20Digilocker_Framework13ModelTokenEnvV3envSSSgvp",
+            "mangledName": "$s20Digilocker_Framework13ModelTokenEnvV3envSSSgvp",
+            "moduleName": "Digilocker_Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20Digilocker_Framework13ModelTokenEnvV3envSSSgvg",
+                "mangledName": "$s20Digilocker_Framework13ModelTokenEnvV3envSSSgvg",
+                "moduleName": "Digilocker_Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20Digilocker_Framework13ModelTokenEnvV3urlSSSgvp",
+            "mangledName": "$s20Digilocker_Framework13ModelTokenEnvV3urlSSSgvp",
+            "moduleName": "Digilocker_Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20Digilocker_Framework13ModelTokenEnvV3urlSSSgvg",
+                "mangledName": "$s20Digilocker_Framework13ModelTokenEnvV3urlSSSgvg",
+                "moduleName": "Digilocker_Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:clientId:env:url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModelTokenEnv",
+                "printedName": "Digilocker_Framework.ModelTokenEnv",
+                "usr": "s:20Digilocker_Framework13ModelTokenEnvV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20Digilocker_Framework13ModelTokenEnvV5token8clientId3env3urlACSSSg_A3Htcfc",
+            "mangledName": "$s20Digilocker_Framework13ModelTokenEnvV5token8clientId3env3urlACSSSg_A3Htcfc",
+            "moduleName": "Digilocker_Framework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModelTokenEnv",
+                "printedName": "Digilocker_Framework.ModelTokenEnv",
+                "usr": "s:20Digilocker_Framework13ModelTokenEnvV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20Digilocker_Framework13ModelTokenEnvV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s20Digilocker_Framework13ModelTokenEnvV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Digilocker_Framework",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20Digilocker_Framework13ModelTokenEnvV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s20Digilocker_Framework13ModelTokenEnvV6encode2toys7Encoder_p_tKF",
+            "moduleName": "Digilocker_Framework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20Digilocker_Framework13ModelTokenEnvV",
+        "mangledName": "$s20Digilocker_Framework13ModelTokenEnvV",
+        "moduleName": "Digilocker_Framework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Digilocker_Framework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -6528,6 +5867,667 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "Digilocker_Framework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Digilocker",
+        "printedName": "Digilocker",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(env:token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Digilocker",
+                "printedName": "Digilocker_Framework.Digilocker",
+                "usr": "s:20Digilocker_Framework0A0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20Digilocker_Framework0A0C3env5tokenACSS_SStcfc",
+            "mangledName": "$s20Digilocker_Framework0A0C3env5tokenACSS_SStcfc",
+            "moduleName": "Digilocker_Framework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20Digilocker_Framework0A0C",
+        "mangledName": "$s20Digilocker_Framework0A0C",
+        "moduleName": "Digilocker_Framework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Digilocker_Framework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Digilocker_Framework"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Digilocker_Framework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Digilocker_Framework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ModelFootprintRequest",
+        "printedName": "ModelFootprintRequest",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "event",
+            "printedName": "event",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20Digilocker_Framework21ModelFootprintRequestV5eventSSvp",
+            "mangledName": "$s20Digilocker_Framework21ModelFootprintRequestV5eventSSvp",
+            "moduleName": "Digilocker_Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20Digilocker_Framework21ModelFootprintRequestV5eventSSvg",
+                "mangledName": "$s20Digilocker_Framework21ModelFootprintRequestV5eventSSvg",
+                "moduleName": "Digilocker_Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(event:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModelFootprintRequest",
+                "printedName": "Digilocker_Framework.ModelFootprintRequest",
+                "usr": "s:20Digilocker_Framework21ModelFootprintRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20Digilocker_Framework21ModelFootprintRequestV5eventACSS_tcfc",
+            "mangledName": "$s20Digilocker_Framework21ModelFootprintRequestV5eventACSS_tcfc",
+            "moduleName": "Digilocker_Framework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModelFootprintRequest",
+                "printedName": "Digilocker_Framework.ModelFootprintRequest",
+                "usr": "s:20Digilocker_Framework21ModelFootprintRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20Digilocker_Framework21ModelFootprintRequestV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s20Digilocker_Framework21ModelFootprintRequestV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Digilocker_Framework",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20Digilocker_Framework21ModelFootprintRequestV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s20Digilocker_Framework21ModelFootprintRequestV6encode2toys7Encoder_p_tKF",
+            "moduleName": "Digilocker_Framework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20Digilocker_Framework21ModelFootprintRequestV",
+        "mangledName": "$s20Digilocker_Framework21ModelFootprintRequestV",
+        "moduleName": "Digilocker_Framework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ModelFootprintResponse",
+        "printedName": "ModelFootprintResponse",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModelFootprintResponse",
+                "printedName": "Digilocker_Framework.ModelFootprintResponse",
+                "usr": "s:20Digilocker_Framework22ModelFootprintResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20Digilocker_Framework22ModelFootprintResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s20Digilocker_Framework22ModelFootprintResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Digilocker_Framework",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20Digilocker_Framework22ModelFootprintResponseV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s20Digilocker_Framework22ModelFootprintResponseV6encode2toys7Encoder_p_tKF",
+            "moduleName": "Digilocker_Framework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20Digilocker_Framework22ModelFootprintResponseV",
+        "mangledName": "$s20Digilocker_Framework22ModelFootprintResponseV",
+        "moduleName": "Digilocker_Framework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FootprintData",
+        "printedName": "FootprintData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20Digilocker_Framework13FootprintDataV7successSbvp",
+            "mangledName": "$s20Digilocker_Framework13FootprintDataV7successSbvp",
+            "moduleName": "Digilocker_Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20Digilocker_Framework13FootprintDataV7successSbvg",
+                "mangledName": "$s20Digilocker_Framework13FootprintDataV7successSbvg",
+                "moduleName": "Digilocker_Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(success:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FootprintData",
+                "printedName": "Digilocker_Framework.FootprintData",
+                "usr": "s:20Digilocker_Framework13FootprintDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20Digilocker_Framework13FootprintDataV7successACSb_tcfc",
+            "mangledName": "$s20Digilocker_Framework13FootprintDataV7successACSb_tcfc",
+            "moduleName": "Digilocker_Framework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FootprintData",
+                "printedName": "Digilocker_Framework.FootprintData",
+                "usr": "s:20Digilocker_Framework13FootprintDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20Digilocker_Framework13FootprintDataV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s20Digilocker_Framework13FootprintDataV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Digilocker_Framework",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20Digilocker_Framework13FootprintDataV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s20Digilocker_Framework13FootprintDataV6encode2toys7Encoder_p_tKF",
+            "moduleName": "Digilocker_Framework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20Digilocker_Framework13FootprintDataV",
+        "mangledName": "$s20Digilocker_Framework13FootprintDataV",
+        "moduleName": "Digilocker_Framework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Digilocker_Framework"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Digilocker_Framework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Digilocker_Framework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Digilocker_Framework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ModelStatus",
+        "printedName": "ModelStatus",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModelStatus",
+                "printedName": "Digilocker_Framework.ModelStatus",
+                "usr": "s:20Digilocker_Framework11ModelStatusV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20Digilocker_Framework11ModelStatusV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s20Digilocker_Framework11ModelStatusV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Digilocker_Framework",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20Digilocker_Framework11ModelStatusV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s20Digilocker_Framework11ModelStatusV6encode2toys7Encoder_p_tKF",
+            "moduleName": "Digilocker_Framework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20Digilocker_Framework11ModelStatusV",
+        "mangledName": "$s20Digilocker_Framework11ModelStatusV",
+        "moduleName": "Digilocker_Framework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "Digilocker_Framework"
       },
       {
@@ -6570,37 +6570,37 @@
       "value": "\"message_code\""
     },
     {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/Components\/StepOneView.swift",
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/View\/InitSDKView.swift",
       "kind": "BooleanLiteral",
-      "offset": 228,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/Components\/StepOneView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 283,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/View\/CompleteVerificationView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 318,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/View\/CompleteVerificationView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 359,
+      "offset": 247,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/View\/CompleteVerificationView.swift",
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/View\/InitSDKView.swift",
+      "kind": "StringLiteral",
+      "offset": 289,
+      "length": 16,
+      "value": "\"initialization\""
+    },
+    {
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/View\/InitSDKView.swift",
+      "kind": "FloatLiteral",
+      "offset": 347,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/View\/InitSDKView.swift",
+      "kind": "StringLiteral",
+      "offset": 4735,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Utils\/SimpleSMSRetriever.swift",
       "kind": "BooleanLiteral",
-      "offset": 398,
+      "offset": 199,
       "length": 5,
       "value": "false"
     },
@@ -6668,79 +6668,23 @@
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/View\/InitSDKView.swift",
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/View\/CompleteVerificationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 247,
+      "offset": 318,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/View\/CompleteVerificationView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 359,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/View\/InitSDKView.swift",
-      "kind": "StringLiteral",
-      "offset": 289,
-      "length": 16,
-      "value": "\"initialization\""
-    },
-    {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/View\/InitSDKView.swift",
-      "kind": "FloatLiteral",
-      "offset": 347,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/View\/InitSDKView.swift",
-      "kind": "StringLiteral",
-      "offset": 4735,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/Components\/DigilockerWebView.swift",
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/View\/CompleteVerificationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 754,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/Components\/DigilockerWebView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2856,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/Components\/DigilockerWebView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2939,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/Components\/DigilockerWebView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3306,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/Components\/DigilockerWebView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3405,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/Components\/DigilockerWebView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3446,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/Components\/DigilockerWebView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3487,
+      "offset": 398,
       "length": 5,
       "value": "false"
     },
@@ -6801,95 +6745,32 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelFootprint.swift",
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelBranding.swift",
       "kind": "StringLiteral",
-      "offset": 519,
-      "length": 14,
-      "value": "\"message_code\""
-    },
-    {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelFootprint.swift",
-      "kind": "StringLiteral",
-      "offset": 560,
-      "length": 13,
-      "value": "\"status_code\""
-    },
-    {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelFootprint.swift",
-      "kind": "BooleanLiteral",
-      "offset": 692,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelFootprint.swift",
-      "kind": "BooleanLiteral",
-      "offset": 885,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Utils\/Utilities.swift",
-      "kind": "StringLiteral",
-      "offset": 535,
-      "length": 19,
-      "value": "\"Exit Verification\""
-    },
-    {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Utils\/Utilities.swift",
-      "kind": "StringLiteral",
-      "offset": 613,
-      "length": 32,
-      "value": "\"Are you sure you want to exit?\""
-    },
-    {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/ViewModels\/MainViewModel.swift",
-      "kind": "BooleanLiteral",
       "offset": 230,
-      "length": 5,
-      "value": "false"
+      "length": 17,
+      "value": "\"brand_image_url\""
     },
     {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/ViewModels\/MainViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 357,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/ViewModels\/MainViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 488,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelStatus.swift",
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelBranding.swift",
       "kind": "StringLiteral",
-      "offset": 333,
-      "length": 14,
-      "value": "\"message_code\""
+      "offset": 273,
+      "length": 12,
+      "value": "\"brand_name\""
     },
     {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelStatus.swift",
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelBranding.swift",
       "kind": "StringLiteral",
-      "offset": 374,
+      "offset": 811,
       "length": 13,
       "value": "\"status_code\""
     },
     {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelStatus.swift",
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelBranding.swift",
       "kind": "StringLiteral",
-      "offset": 675,
-      "length": 16,
-      "value": "\"aadhaar_linked\""
-    },
-    {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 749,
-      "length": 13,
-      "value": "\"error_count\""
+      "offset": 852,
+      "length": 14,
+      "value": "\"message_code\""
     },
     {
       "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/Components\/WebViewContainer.swift",
@@ -6920,32 +6801,53 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelBranding.swift",
-      "kind": "StringLiteral",
-      "offset": 230,
-      "length": 17,
-      "value": "\"brand_image_url\""
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/Components\/DigilockerWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 754,
+      "length": 5,
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelBranding.swift",
-      "kind": "StringLiteral",
-      "offset": 273,
-      "length": 12,
-      "value": "\"brand_name\""
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/Components\/DigilockerWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2856,
+      "length": 5,
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelBranding.swift",
-      "kind": "StringLiteral",
-      "offset": 811,
-      "length": 13,
-      "value": "\"status_code\""
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/Components\/DigilockerWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2939,
+      "length": 5,
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelBranding.swift",
-      "kind": "StringLiteral",
-      "offset": 852,
-      "length": 14,
-      "value": "\"message_code\""
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/Components\/DigilockerWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3306,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/Components\/DigilockerWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3405,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/Components\/DigilockerWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3446,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/Components\/DigilockerWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3487,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelOptions.swift",
@@ -7039,6 +6941,27 @@
       "value": "\"voice_assistant_lang\""
     },
     {
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/ViewModels\/MainViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 230,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/ViewModels\/MainViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 357,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/ViewModels\/MainViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 488,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 77,
@@ -7051,6 +6974,27 @@
       "offset": 163,
       "length": 49,
       "value": "\"https:\/\/kyc-api.surepass.app\/api\/v1\/digilocker\/\""
+    },
+    {
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/ViewModels\/InitViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 187,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelDigilockerRedirect.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 14,
+      "value": "\"message_code\""
+    },
+    {
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelDigilockerRedirect.swift",
+      "kind": "StringLiteral",
+      "offset": 445,
+      "length": 13,
+      "value": "\"status_code\""
     },
     {
       "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Extensions\/Color.swift",
@@ -7235,32 +7179,116 @@
       "value": "\"#1C212E\""
     },
     {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Utils\/SimpleSMSRetriever.swift",
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/Components\/StepOneView.swift",
       "kind": "BooleanLiteral",
-      "offset": 199,
+      "offset": 228,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/ViewModels\/InitViewModel.swift",
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/Components\/StepOneView.swift",
       "kind": "BooleanLiteral",
-      "offset": 187,
+      "offset": 283,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelDigilockerRedirect.swift",
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/Components\/StepOneView.swift",
       "kind": "StringLiteral",
-      "offset": 404,
+      "offset": 8767,
+      "length": 7,
+      "value": "\"login\""
+    },
+    {
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/Components\/StepOneView.swift",
+      "kind": "StringLiteral",
+      "offset": 8803,
+      "length": 5,
+      "value": "\"otp\""
+    },
+    {
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/Components\/StepOneView.swift",
+      "kind": "StringLiteral",
+      "offset": 8838,
+      "length": 14,
+      "value": "\"user_details\""
+    },
+    {
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/UI\/Components\/StepOneView.swift",
+      "kind": "StringLiteral",
+      "offset": 8882,
+      "length": 6,
+      "value": "\"tick\""
+    },
+    {
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelFootprint.swift",
+      "kind": "StringLiteral",
+      "offset": 519,
       "length": 14,
       "value": "\"message_code\""
     },
     {
-      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelDigilockerRedirect.swift",
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelFootprint.swift",
       "kind": "StringLiteral",
-      "offset": 445,
+      "offset": 560,
       "length": 13,
       "value": "\"status_code\""
+    },
+    {
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelFootprint.swift",
+      "kind": "BooleanLiteral",
+      "offset": 692,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelFootprint.swift",
+      "kind": "BooleanLiteral",
+      "offset": 885,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Utils\/Utilities.swift",
+      "kind": "StringLiteral",
+      "offset": 535,
+      "length": 19,
+      "value": "\"Exit Verification\""
+    },
+    {
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Utils\/Utilities.swift",
+      "kind": "StringLiteral",
+      "offset": 613,
+      "length": 32,
+      "value": "\"Are you sure you want to exit?\""
+    },
+    {
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 333,
+      "length": 14,
+      "value": "\"message_code\""
+    },
+    {
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 374,
+      "length": 13,
+      "value": "\"status_code\""
+    },
+    {
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 675,
+      "length": 16,
+      "value": "\"aadhaar_linked\""
+    },
+    {
+      "filePath": "\/Users\/alishkumar\/Downloads\/Digilocker Framework\/Digilocker Framework\/DigilockerSDK\/Models\/ModelStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 749,
+      "length": 13,
+      "value": "\"error_count\""
     },
     {
       "filePath": "\/Users\/alishkumar\/Library\/Developer\/Xcode\/DerivedData\/Digilocker_Framework-beezwtgvaruhdofgyudmxgsrvmqf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Digilocker Framework\/IntermediateBuildFilesPath\/Digilocker Framework.build\/Release-iphonesimulator\/Digilocker Framework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
