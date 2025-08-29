@@ -1,0 +1,199 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios18.5 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Digilocker_Framework
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+import AVFoundation
+import Combine
+import DeveloperToolsSupport
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct ModelOptions : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct OptionsData : Swift.Codable {
+  public let aadhaarXml: Swift.Bool?
+  public let allowSelection: Swift.Bool?
+  public let clientId: Swift.String?
+  public let email: Swift.String?
+  public let logoUrl: Swift.String?
+  public let maxRetryCount: Swift.Int?
+  public let mobile: Swift.String?
+  public let name: Swift.String?
+  public let redirectUrl: Swift.String?
+  public let skipMainScreen: Swift.Bool?
+  public let verifyEmail: Swift.Bool?
+  public let verifyPhone: Swift.Bool?
+  public let voiceAssistant: Swift.Bool?
+  public let voiceAssistantLang: Swift.String?
+  public init(aadhaarXml: Swift.Bool, allowSelection: Swift.Bool, clientId: Swift.String, email: Swift.String, logoUrl: Swift.String, maxRetryCount: Swift.Int, mobile: Swift.String, name: Swift.String, redirectUrl: Swift.String, skipMainScreen: Swift.Bool, verifyEmail: Swift.Bool, verifyPhone: Swift.Bool, voiceAssistant: Swift.Bool, voiceAssistantLang: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ModelTokenEnv : Swift.Codable {
+  public let token: Swift.String?
+  public let clientId: Swift.String?
+  public let env: Swift.String?
+  public let url: Swift.String?
+  public init(token: Swift.String?, clientId: Swift.String?, env: Swift.String?, url: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol APIServiceProtocol {
+  func postFootprint(url: Swift.String, body: Digilocker_Framework.ModelFootprintRequest, token: Swift.String) -> Combine.AnyPublisher<Digilocker_Framework.ModelFootprintResponse, Digilocker_Framework.APIError>
+  func getForOptions(url: Swift.String, token: Swift.String) -> Combine.AnyPublisher<Digilocker_Framework.ModelOptions, Digilocker_Framework.APIError>
+  func getForDigilockerRedirect(url: Swift.String, token: Swift.String) -> Combine.AnyPublisher<Digilocker_Framework.ModelDigilockerRedirect, Digilocker_Framework.APIError>
+  func getForStatus(url: Swift.String, token: Swift.String) -> Combine.AnyPublisher<Digilocker_Framework.ModelStatus, Digilocker_Framework.APIError>
+}
+@_hasMissingDesignatedInitializers final public class APIService : Digilocker_Framework.APIServiceProtocol {
+  public static let shared: Digilocker_Framework.APIService
+  final public func postFootprint(url: Swift.String, body: Digilocker_Framework.ModelFootprintRequest, token: Swift.String) -> Combine.AnyPublisher<Digilocker_Framework.ModelFootprintResponse, Digilocker_Framework.APIError>
+  final public func getForOptions(url: Swift.String, token: Swift.String) -> Combine.AnyPublisher<Digilocker_Framework.ModelOptions, Digilocker_Framework.APIError>
+  final public func getForDigilockerRedirect(url: Swift.String, token: Swift.String) -> Combine.AnyPublisher<Digilocker_Framework.ModelDigilockerRedirect, Digilocker_Framework.APIError>
+  final public func getForStatus(url: Swift.String, token: Swift.String) -> Combine.AnyPublisher<Digilocker_Framework.ModelStatus, Digilocker_Framework.APIError>
+  @objc deinit
+}
+public enum HTTPMethod : Swift.String, Swift.CaseIterable {
+  case GET
+  case POST
+  case PUT
+  case DELETE
+  case PATCH
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [Digilocker_Framework.HTTPMethod]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [Digilocker_Framework.HTTPMethod] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum APIError : Swift.Error, Foundation.LocalizedError, Swift.Equatable {
+  case invalidURL
+  case invalidResponse
+  case serverError(Swift.Int)
+  case decodingError(any Swift.Error)
+  case encodingError(any Swift.Error)
+  case networkError(any Swift.Error)
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public static func == (lhs: Digilocker_Framework.APIError, rhs: Digilocker_Framework.APIError) -> Swift.Bool
+}
+extension Digilocker_Framework.APIService {
+  final public func chainRequests<T, U>(first: @escaping () -> Combine.AnyPublisher<T, Digilocker_Framework.APIError>, second: @escaping (T) -> Combine.AnyPublisher<U, Digilocker_Framework.APIError>) -> Combine.AnyPublisher<U, Digilocker_Framework.APIError>
+  final public func retryWithBackoff<T>(_ publisher: Combine.AnyPublisher<T, Digilocker_Framework.APIError>, maxRetries: Swift.Int = 3, initialDelay: Foundation.TimeInterval = 1.0) -> Combine.AnyPublisher<T, Digilocker_Framework.APIError>
+}
+
+public struct BrandData : Swift.Codable {
+  public let brandImageUrl: Swift.String?
+  public let brandName: Swift.String?
+  public init(brandImageUrl: Swift.String?, brandName: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ModelBranding : Swift.Codable {
+  public let data: Digilocker_Framework.BrandData
+  public let message: Swift.String?
+  public let success: Swift.Bool?
+  public let statusCode: Swift.Int?
+  public let messageCode: Swift.String?
+  public init(data: Digilocker_Framework.BrandData, message: Swift.String?, success: Swift.Bool?, statusCode: Swift.Int?, messageCode: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public class Digilocker {
+  public init(env: Swift.String, token: Swift.String)
+  @objc deinit
+}
+@_Concurrency.MainActor @preconcurrency public struct InitSDKView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public let environment: Swift.String
+  @_Concurrency.MainActor @preconcurrency public let token: Swift.String
+  @_Concurrency.MainActor @preconcurrency public let onCompletion: (Swift.String) -> Swift.Void
+  @_Concurrency.MainActor @preconcurrency public let onFailure: (Swift.String) -> Swift.Void
+  @_Concurrency.MainActor @preconcurrency public init(environment: Swift.String, token: Swift.String, onCompletion: @escaping (Swift.String) -> Swift.Void, onFailure: @escaping (Swift.String) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s20Digilocker_Framework11InitSDKViewV4bodyQrvp", 0) __
+}
+
+public enum Env : Swift.String {
+  case PROD
+  case SANDBOX
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct ModelFootprintRequest : Swift.Codable {
+  public let event: Swift.String
+  public init(event: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ModelFootprintResponse : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct FootprintData : Swift.Codable {
+  public let success: Swift.Bool
+  public init(success: Swift.Bool = true)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ModelDigilockerRedirect : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ModelStatus : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol RepositoryProtocol {
+  func postFootprint(url: Swift.String, request: Digilocker_Framework.ModelFootprintRequest, token: Swift.String) -> Combine.AnyPublisher<Digilocker_Framework.ModelFootprintResponse, Digilocker_Framework.APIError>
+  func getForOptions(url: Swift.String, token: Swift.String) -> Combine.AnyPublisher<Digilocker_Framework.ModelOptions, Digilocker_Framework.APIError>
+  func getForDigilockerRedirect(url: Swift.String, token: Swift.String) -> Combine.AnyPublisher<Digilocker_Framework.ModelDigilockerRedirect, Digilocker_Framework.APIError>
+  func getForStatus(url: Swift.String, token: Swift.String) -> Combine.AnyPublisher<Digilocker_Framework.ModelStatus, Digilocker_Framework.APIError>
+}
+final public class Repository : Digilocker_Framework.RepositoryProtocol {
+  public init(apiService: any Digilocker_Framework.APIServiceProtocol = APIService.shared)
+  final public func postFootprint(url: Swift.String, request: Digilocker_Framework.ModelFootprintRequest, token: Swift.String) -> Combine.AnyPublisher<Digilocker_Framework.ModelFootprintResponse, Digilocker_Framework.APIError>
+  final public func getForOptions(url: Swift.String, token: Swift.String) -> Combine.AnyPublisher<Digilocker_Framework.ModelOptions, Digilocker_Framework.APIError>
+  final public func getForDigilockerRedirect(url: Swift.String, token: Swift.String) -> Combine.AnyPublisher<Digilocker_Framework.ModelDigilockerRedirect, Digilocker_Framework.APIError>
+  final public func getForStatus(url: Swift.String, token: Swift.String) -> Combine.AnyPublisher<Digilocker_Framework.ModelStatus, Digilocker_Framework.APIError>
+  @objc deinit
+}
+extension Digilocker_Framework.Repository {
+  final public func postFootprintAsync(url: Swift.String, request: Digilocker_Framework.ModelFootprintRequest, token: Swift.String) async throws -> Digilocker_Framework.ModelFootprintResponse
+  final public func getForOptionsAsync(url: Swift.String, token: Swift.String) async throws -> Digilocker_Framework.ModelOptions
+  final public func getForDigilockerRedirectAsync(url: Swift.String, token: Swift.String) async throws -> Digilocker_Framework.ModelDigilockerRedirect
+  final public func getForStatusAsync(url: Swift.String, token: Swift.String) async throws -> Digilocker_Framework.ModelStatus
+}
+public struct ModelControllingOptions : Swift.Codable {
+  public let data: Foundation.Data
+  public let success: Swift.Bool
+  public let message: Swift.String?
+  public let statusCode: Swift.Int
+  public let messageCode: Swift.String
+  public init(data: Foundation.Data, success: Swift.Bool, message: Swift.String?, statusCode: Swift.Int, messageCode: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+
+
+extension Digilocker_Framework.HTTPMethod : Swift.Equatable {}
+extension Digilocker_Framework.HTTPMethod : Swift.Hashable {}
+extension Digilocker_Framework.HTTPMethod : Swift.RawRepresentable {}
+extension Digilocker_Framework.InitSDKView : Swift.Sendable {}
+extension Digilocker_Framework.Env : Swift.Equatable {}
+extension Digilocker_Framework.Env : Swift.Hashable {}
+extension Digilocker_Framework.Env : Swift.RawRepresentable {}
