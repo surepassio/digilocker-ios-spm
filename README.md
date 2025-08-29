@@ -223,6 +223,18 @@ struct MyVerificationView: View {
 }
 ```
 
+### Theme Customization
+
+You can customize the SDK's accent color to match your app's branding:
+
+```swift
+import Digilocker_Framework
+
+// Set your custom accent color before initializing the SDK
+SurepassConfig.shared.accentColor = .blue
+// You can use any UIColor: .red, .green, .purple, UIColor(hex: "#FF6B35"), etc.
+
+```
 
 ### Env
 
