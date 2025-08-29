@@ -6,31 +6,31 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		NzEWv/lKwhKPnWtIm4ZnJwElbKc=
+		umCvMn6LYVjdzWV0TzfkjuRbHQE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		h8B/LFhnoJhQNtt7/CfXnhYKo9g=
+		P7mVv/NhlnaM3SqloYi+Qs3qaYg=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		gtA1CIwZpRky6oaz6pCtsVJdGRg=
+		MwnPiRmGEFWfqFPcAI4lmuIDugI=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		Y9ejY/zHEVp/nd6BnFDXmqkU7fQ=
+		urEfciVX/zCLe/u+vkEvhoMvwE4=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		/5++TBo7GYXMSH2o5do6tSzfhy0=
+		NLRe1q5DYeCFvB6svARHf/Lw8Hw=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Y9ejY/zHEVp/nd6BnFDXmqkU7fQ=
+		urEfciVX/zCLe/u+vkEvhoMvwE4=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		bzqcpbAh40HmOxluiD3zmZZ1Rd0=
+		dBFaiwRCt6jQ4TjwE79yf2382fQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -39,42 +39,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CY3xeVnWwfZYifJHKyeKZnb91oPGRXz7YR5rXHSr1Bc=
+			geDHlqGqBtLsHU2NOzGMIa3ucVrdRJWfYMyUL0srfrM=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zGXMaKcvabU/C24gBFvKZxKEha0T2Wmr+0rhrqqzZ6Y=
+			rwMfPaS3vmqbfba/sxPf0edn2fZi2fmRuCVFkUnDqSQ=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			67bxXK5H/+pCaeEmZfGfIy7aJWsd09CqEtFZzfDUr20=
+			VfM4oFeJr6UzDMmYYjmCvn5amAakL1kegVE4WFP4f4g=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1WcLZvcjB06aO3fwZbsAb1HBwwvpxwrqBkl/ecsOaSY=
+			CvpluKzq683bwEg9KYMP+pKC/WP9igBJVONf8lbuUbA=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			67bxXK5H/+pCaeEmZfGfIy7aJWsd09CqEtFZzfDUr20=
+			VfM4oFeJr6UzDMmYYjmCvn5amAakL1kegVE4WFP4f4g=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zzmmb3USGB6U0k2CLjbhpkz2oYvDNw+DP60F5lecxEU=
+			1vcga+HBrt709J1THWedoVSeNNG45XJRliMnBIOJjl4=
 			</data>
 		</dict>
 	</dict>

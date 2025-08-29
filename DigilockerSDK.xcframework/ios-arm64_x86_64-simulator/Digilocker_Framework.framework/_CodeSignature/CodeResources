@@ -6,51 +6,51 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		NzEWv/lKwhKPnWtIm4ZnJwElbKc=
+		umCvMn6LYVjdzWV0TzfkjuRbHQE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		HQ5OxZ0ONsdhklsb/Xb0UfTDA1s=
+		V63BUAtCyMmEnNwmr9LCKz1ycwE=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		E2Oe6V/jYceeFaA5uPttuJ750UY=
+		aGlFrPVkgjT6fKVVh9YGT8fWaek=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		BxoFPuKn8iHlAftEicQv1Rcgrc8=
+		MBK9hYIIhLMEgTP+Zeo98eVcSdU=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		hRyKK9c/JLLPwcFcfBmgGOIyUCE=
+		/pbpAT9h0OPGyi9t5wSV+rMCghU=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		BxoFPuKn8iHlAftEicQv1Rcgrc8=
+		MBK9hYIIhLMEgTP+Zeo98eVcSdU=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KevGJyNxqLOCTo7tr9ZNeh3ptfI=
+		JQ/5Fh/AK+sfumrqStAYbQZtNdQ=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		E2Oe6V/jYceeFaA5uPttuJ750UY=
+		aGlFrPVkgjT6fKVVh9YGT8fWaek=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		UJW9b5sY0ztILEWBQObSiabDxRQ=
+		3r2sE3XnmPbrtBhypTtTCitg0nY=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		NKGPOf8gZijg+O5YEAcFey//z/8=
+		ttgJOwQ2fzF68PCEcUohiTjM4/s=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		UJW9b5sY0ztILEWBQObSiabDxRQ=
+		3r2sE3XnmPbrtBhypTtTCitg0nY=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		uJmETPLxUb36V6cU5avPE580Vic=
+		fJzEEiESAh5G1gAmE6wwJirtvv4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -59,77 +59,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CY3xeVnWwfZYifJHKyeKZnb91oPGRXz7YR5rXHSr1Bc=
+			geDHlqGqBtLsHU2NOzGMIa3ucVrdRJWfYMyUL0srfrM=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			58nHvpWSJvPFftpzWZUD4QsjKujt0GLfd1FaGqZ+uFQ=
+			FtZ4s7HyTvdGXfN+dZTaF5XX1mF4wl7hJhG4aMH2sGk=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O4Xt9leA6jmh6nhySHvXYrERX5rGGDcG6dsMRFb0PVo=
+			nmRYG0cmHEU/y7g624QemmVSrWEaG8CBcP67umyQZ/c=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9uYOMlCUPY6+UA0O84FJC6sM7eaGHHGSTtfLy1XBrH0=
+			cxiWetMV8cMVs4LthFLod+tlO+Dl1nCsk/VGT3mkPus=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O4Xt9leA6jmh6nhySHvXYrERX5rGGDcG6dsMRFb0PVo=
+			nmRYG0cmHEU/y7g624QemmVSrWEaG8CBcP67umyQZ/c=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HY1KsQZrq9VIuyJyZyApFAp/WU8jero1/3RcgX3RYLM=
+			/vcYpEtZDaFMwgAT5CvBWxZiOzb3NhyvSd1MSLg1U7k=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			58nHvpWSJvPFftpzWZUD4QsjKujt0GLfd1FaGqZ+uFQ=
+			FtZ4s7HyTvdGXfN+dZTaF5XX1mF4wl7hJhG4aMH2sGk=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0XBforCUS5QCqEbILjOjohF3oWOQ8clVVsr7+A+DO6s=
+			eIkwDr1GUjv/fOT1oVxgCTJMwEArkXxo3uxdtNFRw2Q=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tewd7u/qazQi+d6uNdrs/Cw3vS96OkWKcsFFRpvepj4=
+			baHJpGj4/KG6XnliR+gQoXaA3lqTrlVLjRLNfaSDOwY=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0XBforCUS5QCqEbILjOjohF3oWOQ8clVVsr7+A+DO6s=
+			eIkwDr1GUjv/fOT1oVxgCTJMwEArkXxo3uxdtNFRw2Q=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IWivVHPqnu1bHYLBWCUBJhj+234mHaF1WhNYuLRw+oY=
+			Aqzfuw+z2yZm7M8W2R31w8f+qSg1C6M9Os9yaGO8gKM=
 			</data>
 		</dict>
 	</dict>
