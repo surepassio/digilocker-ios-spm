@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		umCvMn6LYVjdzWV0TzfkjuRbHQE=
+		mTTZrHw447Mjq7gp4VP9KLu0TKk=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		opKxrkaSMmKPx0Dp2PaPasRKH18=
+		zzc0noRc2X4JeXGx9S1S8TOnE74=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		8Yq2KPGQXYHUB0jkx3ReBhYKL1g=
+		t13I0J79O9KFZ/A2OgQqZPQh87Y=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		8Yq2KPGQXYHUB0jkx3ReBhYKL1g=
+		t13I0J79O9KFZ/A2OgQqZPQh87Y=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hPAGrF100WUiyfG5oplMemkkXXk=
+		uTkWSG2dxO3xrjngBuw6w5d8/Zg=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		opKxrkaSMmKPx0Dp2PaPasRKH18=
+		zzc0noRc2X4JeXGx9S1S8TOnE74=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		hWvi67hjecrUg55JZu1povIGph4=
+		+TT6uZtQ1KO8BChHkhae4D+ym9c=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hWvi67hjecrUg55JZu1povIGph4=
+		+TT6uZtQ1KO8BChHkhae4D+ym9c=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ubcmutJ9OtOCpapyFGE1+/5Sbhs=
+		y9s73PhqsWuBYlS2q3NYgNZG0Ls=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -59,21 +59,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			geDHlqGqBtLsHU2NOzGMIa3ucVrdRJWfYMyUL0srfrM=
+			TO3sLcYmNJvbnbxbIknRK5RTSPM3UW3nNagin25xVis=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i+F2igNThl3jmDmyRcupNCNLGQ50hpooAyWEkSScJ3I=
+			QEZCSaETdylE9tF/9LYvuooNqrhea6aeCXux3nCtMDA=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Mz0vLqs1w7+1Sp87s0GiUsmAtfTGZIGLxc0TljOIIc=
+			mDVjGzEgK2N7GnalFYwWAciPS+2U1EQ81tIndKvvvXY=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -87,28 +87,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Mz0vLqs1w7+1Sp87s0GiUsmAtfTGZIGLxc0TljOIIc=
+			mDVjGzEgK2N7GnalFYwWAciPS+2U1EQ81tIndKvvvXY=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qrktfAfv5y98yoHNosvQkCIMg9pRUFNwJD/5BnlCB8A=
+			HunSNXENTu6tvvf5bFZ9IUvPtM5QdyGBpNPy52jGtMI=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i+F2igNThl3jmDmyRcupNCNLGQ50hpooAyWEkSScJ3I=
+			QEZCSaETdylE9tF/9LYvuooNqrhea6aeCXux3nCtMDA=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HnBYT19FA09GHn7o6rAHUSIHSl/c08BlFs7sxhBnKGo=
+			YcUpfgfmf745Js8v7cFcAf+15fdkELBZS1hbQYe4A0w=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -122,14 +122,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HnBYT19FA09GHn7o6rAHUSIHSl/c08BlFs7sxhBnKGo=
+			YcUpfgfmf745Js8v7cFcAf+15fdkELBZS1hbQYe4A0w=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O+nC/Ny7Boft+4CQyxkkGHilc4p9dGbx9q03dwWYegk=
+			cGXCCTa2Ssty9sJEUFZdk7pUsYuhf1Typa13KHWqOh4=
 			</data>
 		</dict>
 	</dict>

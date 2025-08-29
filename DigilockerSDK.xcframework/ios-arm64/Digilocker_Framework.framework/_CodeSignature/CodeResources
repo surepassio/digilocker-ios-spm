@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		umCvMn6LYVjdzWV0TzfkjuRbHQE=
+		mTTZrHw447Mjq7gp4VP9KLu0TKk=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		PdEcOBEW5o25w1R3EdEuesVOH9w=
+		wAndquik0zWGKH23W0ZHuBts8as=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		Hb0BUKI7sxXo17p/5VneXChdXas=
+		sN2Q8pO4MWhqJi5fOlV/ZS5V9rg=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Hb0BUKI7sxXo17p/5VneXChdXas=
+		sN2Q8pO4MWhqJi5fOlV/ZS5V9rg=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		M2v2OqkfnFe64HMAzbeX4qOaEjY=
+		PdHAeMQ7MOZvBWgvTaovGXKWkUo=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -39,21 +39,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			geDHlqGqBtLsHU2NOzGMIa3ucVrdRJWfYMyUL0srfrM=
+			TO3sLcYmNJvbnbxbIknRK5RTSPM3UW3nNagin25xVis=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hsr1KUjPWnKMWTFAJDKOhPCr0b4CztJVYTATBh56D0k=
+			A6xw9djxwPMh9UhUGZC7Ox4DJbdTc2sPi8kkYxBJkbg=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8IMPZwbXcdkAbEI0pctI+pv3awAK400EMJ65L5V97j8=
+			9l0slMVl7YH+gqVPVCS+K2fo46KAc+LJ1Rv85GyABzs=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -67,14 +67,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8IMPZwbXcdkAbEI0pctI+pv3awAK400EMJ65L5V97j8=
+			9l0slMVl7YH+gqVPVCS+K2fo46KAc+LJ1Rv85GyABzs=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x6JiTQTLoZ6pieeXLTy9POWsXoxbmF/h3cRWGphjZy8=
+			F6BRxsq0gpZVrPiZOhUiARSPres4IOeExGLApj0YKiU=
 			</data>
 		</dict>
 	</dict>
