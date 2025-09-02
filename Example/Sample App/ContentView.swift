@@ -51,6 +51,8 @@ struct ContentView: View {
                     
                     // TextField
                     TextField("API Login Token", text: $token)
+                        .autocorrectionDisabled(true)       // disables autocorrection (iOS 15+)
+                        .textInputAutocapitalization(.never)
                         .padding() // internal padding
                         .frame(height: 50) // control height
                         .background(
