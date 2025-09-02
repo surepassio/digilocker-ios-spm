@@ -12,7 +12,7 @@ import Digilocker_Framework
 
 struct ContentView: View {
     @State private var initSDK: Bool = false
-    @State private var token: String = ".eJyrVkrOyUzNK4nPTFGyUkrJTM_MyU_OTi2KDyspyksNrihKdct1Ly5xzwjwzChX0lFKTyxJLU-sBKotTsxLScqvAIqVVBakomhWqgUAcTkfNw.aLFnIw.0HYMyeRrQk5m9KpFgO4sxxQ3npQ"
+    @State private var token: String = ""
     @State private var errorMessage: String = ""
     private var env: String = Env.SANDBOX.rawValue
     var body: some View {
@@ -101,6 +101,9 @@ struct ContentView: View {
                 .padding(.bottom, 20)
             }
             .ignoresSafeArea(.keyboard)
+        }
+        .onAppear() {
+            SurepassConfig.shared.accentColor = .blue
         }
         .ignoresSafeArea(.keyboard)
     }
