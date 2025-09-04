@@ -43,6 +43,7 @@ struct ContentView: View {
                     VStack(alignment: .leading, spacing: 6) {
                         Text("Enter API Token")
                             .font(.title)
+                            .foregroundColor(.black)
                         
                         Text("Paste your API login token here")
                             .font(.subheadline)
@@ -51,6 +52,7 @@ struct ContentView: View {
                     
                     // TextField
                     TextField("API Login Token", text: $token)
+                        .foregroundColor(.black)
                         .autocorrectionDisabled(true)       // disables autocorrection (iOS 15+)
                         .textInputAutocapitalization(.never)
                         .padding() // internal padding
@@ -59,6 +61,18 @@ struct ContentView: View {
                             RoundedRectangle(cornerRadius: 8)
                                 .stroke(Color.gray.opacity(0.5), lineWidth: 1)
                         )
+                        .overlay(
+                            // Custom placeholder when text is empty
+                            HStack {
+                                if token.isEmpty {
+                                    Text("API Login Token")
+                                        .foregroundColor(.gray.opacity(0.6)) // Hint/placeholder color
+                                        .padding(.leading, 16)
+                                    Spacer()
+                                }
+                            }
+                        )
+                        .accentColor(.black)
                         .padding(.top, 4)
                     
                     if !errorMessage.isEmpty {
@@ -102,7 +116,9 @@ struct ContentView: View {
                 .cornerRadius(12)
                 .padding(.bottom, 20)
             }
+            .background(Color.white)
             .ignoresSafeArea(.keyboard)
+            .background(Color.white)
         }
         .onAppear() {
             SurepassConfig.shared.accentColor = .blue
