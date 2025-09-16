@@ -27,6 +27,10 @@ DigilockerSDK helps developers integrate secure identity verification using Digi
   - [Basic Integration](#basic-integration)
   - [Environment Configuration](#environment-configuration)
   - [Custom Integration](#custom-integration)
+- [📥 Step 4: Download Aadhaar](#step-4-download-aadhaar)
+  - [4.1 Download Aadhaar API](#41-download-aadhaar-api)
+  - [4.2 API Parameters](#42-api-parameters)
+  - [4.3 API Response](#43-api-response)
 - [✨ Features](#features)
 - [📚 API Reference](#api-reference)
   - [DigilockerSDK](#digilockersdk)
@@ -240,6 +244,91 @@ SurepassConfig.shared.accentColor = .blue
 // You can use any UIColor: .red, .green, .purple, UIColor(hex: "#FF6B35"), etc.
 
 ```
+
+## 📥 Step 4: Download Aadhaar
+
+After successful verification through the SDK, you can download the Aadhaar document using the Download Aadhaar API.
+
+### 4.1 Download Aadhaar API
+
+Use the client_id received from the SDK success callback to download the Aadhaar document.
+
+**For UAT Environment:**
+
+```bash
+curl --location 'https://sandbox.surepass.app/api/v1/digilocker/download-aadhaar' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer TOKEN_GOT_FROM_SALES_MANAGER' \
+--data '{
+    "client_id": "CLIENT_ID_FROM_SDK_SUCCESS_CALLBACK"
+}'
+```
+
+**For Production Environment:**
+
+```bash
+curl --location 'https://kyc-api.surepass.app/api/v1/digilocker/download-aadhaar' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer TOKEN_GOT_FROM_SALES_MANAGER' \
+--data '{
+    "client_id": "CLIENT_ID_FROM_SDK_SUCCESS_CALLBACK"
+}'
+```
+
+### 4.2 API Parameters
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|--------------|
+| `client_id` | string | ✅ Required | The client ID received from the SDK success callback after verification |
+
+### 4.3 API Response
+
+**Success Response:**
+
+```json
+{
+  "data": {
+    "aadhaar_pdf": "base64_encoded_pdf_data",
+    "aadhaar_xml": "base64_encoded_xml_data",
+    "name": "John Doe",
+    "aadhaar_number": "XXXX-XXXX-1234",
+    "date_of_birth": "01-01-1990",
+    "gender": "M",
+    "address": {
+      "house": "123",
+      "street": "Main Street",
+      "landmark": "Near Park",
+      "locality": "Central Area",
+      "vtc": "City Name",
+      "district": "District Name",
+      "state": "State Name",
+      "pincode": "123456"
+    }
+  },
+  "status_code": 200,
+  "message_code": "success",
+  "message": "Aadhaar downloaded successfully",
+  "success": true
+}
+```
+
+**Error Response:**
+
+```json
+{
+  "data": null,
+  "status_code": 400,
+  "message_code": "error",
+  "message": "Invalid client_id or verification not completed",
+  "success": false
+}
+```
+
+**Important Notes:**
+- The `client_id` must be from a successfully completed verification
+- PDF and XML data are base64 encoded and need to be decoded before use
+- Store the downloaded data securely according to your compliance requirements
+- The API response includes both the document files and extracted user information
 
 ### Env
 
