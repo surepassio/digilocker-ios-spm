@@ -12,7 +12,7 @@ import Digilocker_Framework
 
 struct ContentView: View {
     @State private var initSDK: Bool = false
-    @State private var token: String = ".eJyrVkrOyUzNK4nPTFGyUkrJTM_MyU_OTi2KT8oqzCtKcsusKqzK8S8KygvIdU1W0lFKTyxJLU-sBKotKMpPKU0uyczPAwqXVBakouhXqgUA454guw.aSqVdA.o8r8DioElG6mNOBcrYh0KbpBQBs"
+    @State private var token: String = ".eJyrVkrOyUzNK4nPTFGyUkrJTM_MyU_OTi2KT89OzEovjSrzyc4tSqnIdS1zz8pW0lFKTyxJLU-sBKotKMpPKU0uyczPAwqXVBakouhXqgUA59og1Q.aUKfjw.RKpTlxlUn5BKWl-sxsDNaFiMiAI"
     @State private var errorMessage: String = ""
     private var env: String = Env.PROD.rawValue
     var body: some View {
