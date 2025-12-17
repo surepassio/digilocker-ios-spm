@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B7070522E69C7DA000CAB8D /* DigilockerSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 6B7070512E69C7DA000CAB8D /* DigilockerSDK */; };
+		6B41F2282EDACEF200F30983 /* DigilockerSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 6B41F2272EDACEF200F30983 /* DigilockerSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B7070522E69C7DA000CAB8D /* DigilockerSDK in Frameworks */,
+				6B41F2282EDACEF200F30983 /* DigilockerSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +70,7 @@
 			);
 			name = "Sample App";
 			packageProductDependencies = (
-				6B7070512E69C7DA000CAB8D /* DigilockerSDK */,
+				6B41F2272EDACEF200F30983 /* DigilockerSDK */,
 			);
 			productName = "Sample App";
 			productReference = 6BD2CD902E617FD800A55093 /* Sample App.app */;
@@ -101,7 +101,7 @@
 			mainGroup = 6BD2CD872E617FD800A55093;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				6B7070502E69C7DA000CAB8D /* XCRemoteSwiftPackageReference "digilocker-ios-spm" */,
+				6B41F2262EDACEF200F30983 /* XCRemoteSwiftPackageReference "digilocker-ios-spm" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6BD2CD912E617FD800A55093 /* Products */;
@@ -358,7 +358,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		6B7070502E69C7DA000CAB8D /* XCRemoteSwiftPackageReference "digilocker-ios-spm" */ = {
+		6B41F2262EDACEF200F30983 /* XCRemoteSwiftPackageReference "digilocker-ios-spm" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/surepassio/digilocker-ios-spm/";
 			requirement = {
@@ -369,9 +369,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		6B7070512E69C7DA000CAB8D /* DigilockerSDK */ = {
+		6B41F2272EDACEF200F30983 /* DigilockerSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6B7070502E69C7DA000CAB8D /* XCRemoteSwiftPackageReference "digilocker-ios-spm" */;
+			package = 6B41F2262EDACEF200F30983 /* XCRemoteSwiftPackageReference "digilocker-ios-spm" */;
 			productName = DigilockerSDK;
 		};
 /* End XCSwiftPackageProductDependency section */

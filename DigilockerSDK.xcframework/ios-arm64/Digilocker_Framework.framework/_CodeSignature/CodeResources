@@ -10,15 +10,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		P7mVv/NhlnaM3SqloYi+Qs3qaYg=
+		tQnfbqNRRQcPEufeNdDK5wKnP1s=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		rwYOLHYbuTc7I3dOzQVbkK/G1ok=
+		766ihorGyWHEVulLlH0XYAMugsM=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		A/xolQMChSBb5hQX5HzcOmqGFQU=
+		mVqO6Fjq87Cmu9oSoYdRbXaMrfQ=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		A/xolQMChSBb5hQX5HzcOmqGFQU=
+		mVqO6Fjq87Cmu9oSoYdRbXaMrfQ=
 		</data>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		KtZAkYxqmVWNMd5eMnWumQE1r34=
+		oVnI63YTd1+npOVkSQnzjzoFUSk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -46,14 +46,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iNlwuF1SlfNPt2dzZuDtudqUQhMH622tWFWe1JBFF4Q=
+			lH+/zw0y5fZ2Bq4rywqeXaeb+cWS4gtDRoJYTKzCNUI=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZDxbg/AWR3Z6iTN8HODBMduuG9EcDooFyaFskadpCLA=
+			gkhpNP/LJl3mjqA6LUfBdHq10uRZ9qlrZXcL/TIl6NA=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -67,14 +67,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZDxbg/AWR3Z6iTN8HODBMduuG9EcDooFyaFskadpCLA=
+			gkhpNP/LJl3mjqA6LUfBdHq10uRZ9qlrZXcL/TIl6NA=
 			</data>
 		</dict>
 		<key>Modules/Digilocker_Framework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oKsa5zBz7EDb+HTYTuUGNss/XZdClgTHRkCXotB8atE=
+			fQ8TXq3YoWo9ba1SR2oSdRfLDNYPOeIYQZyXgebglCQ=
 			</data>
 		</dict>
 	</dict>
